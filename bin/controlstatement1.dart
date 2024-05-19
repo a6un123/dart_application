@@ -65,7 +65,7 @@ void main(){
    // print("your shoe size note available");
 //  }
 
-// swith case
+// switch case
    
  /*  String size ="L";
     switch(size){
