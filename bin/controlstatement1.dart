@@ -32,13 +32,14 @@ void main(){
   String username="samsung";
   String password="qwe123";
   int otp    =1124;
-  if(username=="samsung " && password =="qwe123"){
-    print("email login success wait for otp verfication");
+  if(username =="samsung" && password == "qwe123"){
+    print("username password authenticatopn success please enter otp");
     if(otp == 1124){
-      print("welcome user");
-    }else{
-      print("login failed");
+      print("otp verfication success Loginsucess");
     }
+  }else{
+    print("username password authenticatopn failed ");
+  }
 
 
 
@@ -93,4 +94,3 @@ void main(){
 
   
 
-}

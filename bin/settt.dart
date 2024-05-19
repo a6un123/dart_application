@@ -2,6 +2,7 @@ void main(){
   Set<String> set1 ={};
   var set2 ={1,2,3,4,5};
   var set3 ={1,3,7,9,11};
+  var set4 ={...set2,...set3};
   set1.add("hello");
   set1.addAll({"one","two","three","four","five"});
   set2.add(11);
@@ -13,4 +14,5 @@ void main(){
   print(set3.difference(set2));
   print(set3.containsAll([1,3,7]));
   print(set1.elementAt(1));
+  print(set4);
 }
